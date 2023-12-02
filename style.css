@@ -1,0 +1,107 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700;800;900&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Poppins', sans-serif;
+}
+
+header {
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    padding: 30px 100px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    z-index: 100;
+}
+
+.logo {
+    font-size: 2em;
+    color: #555;
+    cursor: default;
+}
+
+.logo span {
+    color: #0692d3;
+}
+
+.home {
+    position: relative;
+    width: 100%;
+    height: 100vh;
+    background: url('background.jpg');
+    background-size: cover;
+    background-position: center;
+    display: flex;
+    align-items: center;
+    padding: 30px 100px;
+}
+
+.apps {
+    max-width: 550px;
+    color: #555;
+}
+
+.apps h2 {
+    font-size: 3em;
+}
+
+.apps h2 span {
+    color: #0692d3;
+}
+
+.apps h4 {
+    font-size: 2em;
+}
+
+.apps p {
+    padding: 10px 0 40px 0;
+}
+
+.instructions {
+    max-width: 600px;
+    color: #555;
+    position: absolute;
+    right: 100px;
+}
+
+.instructions h2 {
+    font-size: 3em;
+}
+
+.instructions h2 span {
+    color: #0692d3;
+}
+
+.instructions h4 {
+    font-size: 2em;
+}
+
+.instructions p {
+    padding: 10px 0 40px 0;
+}
+
+.icons a {
+    display: inline-block;
+    width: 45px;
+    height: 45px;
+    background: #0692d3;
+    border-radius: 50%;
+    margin-right: 16px;
+    margin-top: 16px;
+    text-align: center;
+    line-height: 45px;
+    border: 1px solid #fff;
+    outline: 2px solid #0692d3;
+    transition: .3s;
+    color: #fff;
+}
+
+.icons a:hover {
+    color: #0692d3;
+    background: transparent;
+}
