@@ -260,7 +260,7 @@
     "installationUrl": "https://userstyles.world/style/212"
   },
   {
-    "enabled": true,
+    "enabled": false,
     "updateUrl": "https://userstyles.world/api/style/22.user.css",
     "url": "https://github.com/StylishThemes/StackOverflow-Dark",
     "installDate": 1648956761820,
@@ -417,7 +417,7 @@
     "name": "Stack Overflow Dark",
     "originalDigest": "ec08fbeb0bb8d43c11c564e96d3077a141dc847f",
     "_id": "cb8ea27f-d822-4080-90d2-d13e31ee7201",
-    "_rev": 1701542143831,
+    "_rev": 1701599045950,
     "id": 5,
     "installationUrl": "https://userstyles.world/style/22"
   },
@@ -427,15 +427,15 @@
     "name": "vk.com",
     "sections": [
       {
-        "code": ":root {\n    --my_accent: #e94e65;\n    --text_sidebar: #828282;\n}\n\n#fastchat-reforged {\n    display: none;\n    /*   вырезать микрочатик справа в углу   */\n}\n\n.ReplyBoxDonut {\n    display: none;\n    /*   вырезать уведомление о донате сообществам из ленты   */\n}\n\n.feed_friends_recomm {\n    display: none;\n    /*   вырезать рекомендации друзей из ленты   */\n}\n\n.feed_groups_recomm {\n    display: none;\n    /*   вырезать рекомендации сообществ из ленты   */\n}\n\n.Post--copyright {\n    display: none;\n    /*   вырезать посты с источниками из ленты   */\n}\n\n.audio_promo {\n    display: none;\n    /*   вырезать баннер бума из аудио   */\n}\n\n.im-page--dialogs-call-wrap {\n    display: none;\n    /*   вырезать кнопку звонка из диалогов  */\n}\n\n.im-page--header-call {\n    display: none;\n    /*   вырезать кнопку звонка из диалога  */\n}\n\n[scheme=vkcom_dark] {\n    --accent: var(--my_accent);\n    /*   акценты иконок   */\n    --blue_400: var(--my_accent);\n    /*   акценты слайдеров   */\n    --vkui--color_accent_blue: var(--my_accent);\n    /*   выбранный диалог   */\n    --light_blue_700: var(--my_accent);\n    /*   лента GO UP   */\n    --vkui--vkontakte_color_im_text_name: var(--my_accent);\n    /*   имена в диалогах   */\n    --sky_100: var(--my_accent);\n    /*   имена в историях   */\n    --sky_200: var(--my_accent);\n    /*   кружочки историй   */\n    --vkui--color_icon_accent: var(--my_accent);\n    /*   цвет текста левого меню   */\n    --vkui--color_text_link: var(--my_accent);\n}\n\nbody.new_header_design #side_bar ol li .left_row {\n    color: var(--text_sidebar);\n    /*   цвет текста левого меню   */\n}\n\n#top_nav > li.HeaderNav__item.HeaderNav__item--logo > a.TopHomeLink > svg > path:nth-child(1) {\n    fill: var(--my_accent) !important;\n    /*   цвет шапки   */\n}",
+        "code": ":root {\n    --my_accent: #e94e65;\n    --text_sidebar: #828282;\n}\n\n#fastchat-reforged {\n    display: none;\n    /*   вырезать микрочатик справа в углу   */\n}\n\n.ReplyBoxDonut {\n    display: none;\n    /*   вырезать уведомление о донате сообществам из ленты   */\n}\n\n.feed_friends_recomm {\n    display: none;\n    /*   вырезать рекомендации друзей из ленты   */\n}\n\n.feed_groups_recomm {\n    display: none;\n    /*   вырезать рекомендации сообществ из ленты   */\n}\n\n.Post--copyright {\n    display: none;\n    /*   вырезать посты с источниками из ленты   */\n}\n\n.audio_promo {\n    display: none;\n    /*   вырезать баннер бума из аудио   */\n}\n\n.im-page--dialogs-call-wrap {\n    display: none;\n    /*   вырезать кнопку звонка из диалогов  */\n}\n\n.im-page--header-call {\n    display: none;\n    /*   вырезать кнопку звонка из диалога  */\n}\n\n[scheme=vkcom_dark] {\n    --accent: var(--my_accent);\n    /*   акценты иконок   */\n    --blue_400: var(--my_accent);\n    /*   акценты слайдеров   */\n    --vkui--color_accent_blue: var(--my_accent);\n    /*   выбранный диалог   */\n    --light_blue_700: var(--my_accent);\n    /*   лента GO UP   */\n    --vkui--vkontakte_color_im_text_name: var(--my_accent);\n    /*   имена в диалогах   */\n    --sky_100: var(--my_accent);\n    /*   имена в историях   */\n    --sky_200: var(--my_accent);\n    /*   кружочки историй   */\n    --vkui--color_icon_accent: var(--my_accent);\n    /*   цвет текста левого меню   */\n    --vkui--color_text_link: var(--my_accent);\n    --vkui--color_background_accent: var(--my_accent);\n}\n\n.AvatarRich__heptagonUnderlay {\n    display: none;\n    /*   НФТ аватарки без обводки  */\n}\n\nbody.new_header_design #side_bar ol li .left_row {\n    color: var(--text_sidebar);\n    /*   цвет текста левого меню   */\n}\n\n#top_nav > li.HeaderNav__item.HeaderNav__item--logo > a.TopHomeLink > svg > path:nth-child(1) {\n    fill: var(--my_accent) !important;\n    /*   цвет шапки   */\n}",
         "domains": [
           "vk.com"
         ]
       }
     ],
-    "updateDate": 1701543576092,
+    "updateDate": 1701780959063,
     "_id": "615f61e4-2f5f-4380-9f3c-90db0d8f23a4",
-    "_rev": 1701543576093,
+    "_rev": 1701780959063,
     "id": 6
   }
 ]
